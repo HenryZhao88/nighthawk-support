@@ -608,6 +608,54 @@ select option {
   }
 }
 
+/* --- Links & legal --- */
+.link {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(111, 139, 255, 0.35);
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.link:hover {
+  color: #a8bcff;
+  border-bottom-color: var(--accent);
+}
+
+.legal h2 {
+  font-size: 1.15rem;
+  letter-spacing: -0.01em;
+  margin: 28px 0 8px;
+  color: var(--ink);
+}
+.legal h2:first-child {
+  margin-top: 0;
+}
+.legal h3 {
+  font-size: 0.98rem;
+  margin: 18px 0 6px;
+  color: var(--ink);
+}
+.legal p,
+.legal li {
+  color: var(--ink-dim);
+}
+.legal ul {
+  padding-left: 1.2em;
+  margin: 6px 0 12px;
+}
+.legal li {
+  margin: 4px 0;
+}
+.legal strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+.disclaimer {
+  margin-top: 28px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+  font-style: italic;
+}
+
 @media (prefers-reduced-motion: reduce) {
   * {
     transition: none !important;
