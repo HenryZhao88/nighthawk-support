@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0b1224" />
+    <title>NewsHawk Support</title>
+    <meta
+      name="description"
+      content="Help center and support requests for NewsHawk — the swipeable, bias-aware news app."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-aurora" aria-hidden="true">
+      <span class="aurora aurora-1"></span>
+      <span class="aurora aurora-2"></span>
+      <span class="aurora aurora-3"></span>
+    </div>
+
+    <header class="site-header">
+      <a href="#top" class="brand" aria-label="NewsHawk home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="22" height="22">
+            <defs>
+              <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+                <stop offset="0" stop-color="#7aa7ff" />
+                <stop offset="1" stop-color="#3d5afe" />
+              </linearGradient>
+            </defs>
+            <path
+              fill="url(#g)"
+              d="M5 17l8-12 4 6 3-4 7 13c-3 4-7 6-11 6S8 22 5 17z"
+            />
+          </svg>
+        </span>
+        <span class="brand-name">NewsHawk</span>
+        <span class="brand-tag">Support</span>
+      </a>
+      <nav class="site-nav">
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+        <a href="#admin">Admin</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-inner glass">
+          <span class="eyebrow">iOS Support Center</span>
+          <h1>NewsHawk Support</h1>
+          <p class="lede">
+            NewsHawk is a swipeable, personalized, bias-aware news app built for the next
+            generation of readers. If something isn't working, we're here to help — most
+            requests are answered within one business day.
+          </p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#contact">Submit a request</a>
+            <a class="btn btn-ghost" href="#faq">Browse FAQ</a>
+          </div>
+          <ul class="hero-meta">
+            <li><span>•</span> iOS 16+</li>
+            <li><span>•</span> Free with optional Pro</li>
+            <li><span>•</span> Built for younger readers</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="faq" class="section">
+        <div class="section-head">
+          <span class="eyebrow">FAQ</span>
+          <h2>Common questions</h2>
+          <p class="muted">
+            Quick answers to the things people ask us most. Still stuck? Use the form below.
+          </p>
+        </div>
+
+        <div class="faq-grid">
+          <details class="glass faq-card">
+            <summary>
+              <span>Why won't my feed load?</span>
+              <span class="chev" aria-hidden="true">+</span>
+            </summary>
+            <p>
+              Pull down on the feed to refresh. If it still won't load, check your
+              connection, sign out and back in from <em>Settings → Account</em>, or reinstall
+              the app. Submit a request below if the issue persists.
+            </p>
+          </details>
+
+          <details class="glass faq-card">
+            <summary>
+              <span>How is the bias score calculated?</span>
+              <span class="chev" aria-hidden="true">+</span>
+            </summary>
+            <p>
+              Each story is scored using a blend of source-level lean ratings and
+              article-level language analysis. Scores are directional, not absolute — they're
+              meant to help you read across viewpoints, not replace your judgment.
+            </p>
+          </details>
+
+          <details class="glass faq-card">
+            <summary>
+              <span>Can I personalize my topics?</span>
+              <span class="chev" aria-hidden="true">+</span>
+            </summary>
+            <p>
+              Yes. Open <em>You → Interests</em> to pick topics, mute sources, and tune how
+              much your feed adapts to your swipes.
+            </p>
+          </details>
+
+          <details class="glass faq-card">
+            <summary>
+              <span>I think a bias score is wrong.</span>
+              <span class="chev" aria-hidden="true">+</span>
+            </summary>
+            <p>
+              Tap <em>•••</em> on the article and choose <em>Report bias score</em>, or use
+              the form below with the article URL. We review reports weekly.
+            </p>
+          </details>
+
+          <details class="glass faq-card">
+            <summary>
+              <span>How do I delete my account?</span>
+              <span class="chev" aria-hidden="true">+</span>
+            </summary>
+            <p>
+              Go to <em>Settings → Account → Delete account</em>. Deletion is permanent and
+              removes your reading history within 30 days.
+            </p>
+          </details>
+
+          <details class="glass faq-card">
+            <summary>
+              <span>Which iOS versions are supported?</span>
+              <span class="chev" aria-hidden="true">+</span>
+            </summary>
+            <p>
+              NewsHawk supports iOS 16 and later on iPhone. iPad support is in beta.
+            </p>
+          </details>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="section-head">
+          <span class="eyebrow">Contact</span>
+          <h2>Submit a support request</h2>
+          <p class="muted">
+            Fill in the form and we'll get back to you by email. Fields marked
+            <span class="req">*</span> are required.
+          </p>
+        </div>
+
+        <form id="support-form" class="glass form-card" novalidate>
+          <div class="grid-2">
+            <label class="field">
+              <span>Name <span class="req">*</span></span>
+              <input type="text" name="name" required autocomplete="name" placeholder="Your name" />
+            </label>
+
+            <label class="field">
+              <span>Email <span class="req">*</span></span>
+              <input type="email" name="email" required autocomplete="email" placeholder="you@example.com" />
+            </label>
+          </div>
+
+          <label class="field">
+            <span>Issue category <span class="req">*</span></span>
+            <select name="category" required>
+              <option value="" disabled selected>Choose a category…</option>
+              <option value="login">Login</option>
+              <option value="feed">Feed not loading</option>
+              <option value="article">Article issue</option>
+              <option value="bias">Bias score issue</option>
+              <option value="account">Account issue</option>
+              <option value="other">Other</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>Message <span class="req">*</span></span>
+            <textarea name="message" required rows="5" placeholder="Tell us what's happening and any steps to reproduce…"></textarea>
+          </label>
+
+          <div class="grid-2">
+            <label class="field">
+              <span>App version <span class="opt">optional</span></span>
+              <input type="text" name="appVersion" placeholder="e.g. 1.4.2" />
+            </label>
+
+            <label class="field">
+              <span>Device model <span class="opt">optional</span></span>
+              <input type="text" name="deviceModel" placeholder="e.g. iPhone 15 Pro" />
+            </label>
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary" id="support-submit">Send request</button>
+            <p class="form-status" id="support-status" role="status" aria-live="polite"></p>
+          </div>
+        </form>
+      </section>
+
+      <section id="admin" class="section">
+        <div class="section-head">
+          <span class="eyebrow">Admin</span>
+          <h2>Admin dashboard</h2>
+          <p class="muted">
+            Sign in with your Firebase admin account to review and triage requests.
+          </p>
+        </div>
+
+        <div id="admin-login" class="glass form-card admin-login">
+          <form id="login-form" novalidate>
+            <div class="grid-2">
+              <label class="field">
+                <span>Email</span>
+                <input type="email" name="email" required autocomplete="username" placeholder="admin@example.com" />
+              </label>
+              <label class="field">
+                <span>Password</span>
+                <input type="password" name="password" required autocomplete="current-password" placeholder="••••••••" />
+              </label>
+            </div>
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary">Sign in</button>
+              <p class="form-status" id="login-status" role="status" aria-live="polite"></p>
+            </div>
+          </form>
+        </div>
+
+        <div id="admin-dashboard" class="admin-dashboard hidden">
+          <div class="admin-bar glass">
+            <div>
+              <p class="muted small">Signed in as</p>
+              <p id="admin-email" class="admin-email">—</p>
+            </div>
+            <div class="admin-bar-actions">
+              <button class="btn btn-ghost" id="refresh-btn" type="button">Refresh</button>
+              <button class="btn btn-ghost" id="logout-btn" type="button">Sign out</button>
+            </div>
+          </div>
+
+          <p class="form-status" id="admin-status" role="status" aria-live="polite"></p>
+
+          <div id="requests-list" class="requests-list"></div>
+          <p id="requests-empty" class="muted empty hidden">No support requests yet.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> NewsHawk. Made for readers who think across the aisle.</p>
+      <p class="small muted">
+        This site is hosted on GitHub Pages. Support data is stored in Firebase Firestore.
+      </p>
+    </footer>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
