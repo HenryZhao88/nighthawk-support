@@ -1,4 +1,4 @@
-// NewsHawk Support — script.js
+// NighthawkNews Support — script.js
 //
 // Static frontend for GitHub Pages backed by Firebase Firestore + Firebase Auth.
 //

@@ -1,8 +1,8 @@
-# NewsHawk Support
+# NighthawkNews Support
 
-A static support website for the NewsHawk iOS app, deployed via GitHub Pages and backed by Firebase (Firestore + Authentication).
+A static support website for the NighthawkNews iOS app, deployed via GitHub Pages and backed by Firebase (Firestore + Authentication).
 
-Live URL (once enabled): <https://henryzhao88.github.io/newshawk-support>
+Live URL (once enabled): <https://henryzhao88.github.io/nighthawknews-support>
 
 The site contains:
 
@@ -18,7 +18,7 @@ The frontend is plain HTML/CSS/JS — no build step.
 
 ## 1. Enable GitHub Pages
 
-1. Push this repository to GitHub. Make sure the repo is named `newshawk-support` (or update the live URL to match your repo).
+1. Push this repository to GitHub. Make sure the repo is named `nighthawknews-support` (or update the live URL to match your repo).
 2. In GitHub, open **Settings → Pages**.
 3. Under **Source**, choose **Deploy from a branch**.
 4. Pick the `main` branch and the `/ (root)` folder, then **Save**.
@@ -31,7 +31,7 @@ Any push to `main` redeploys automatically.
 ## 2. Create a Firebase project
 
 1. Go to <https://console.firebase.google.com> and click **Add project**.
-2. Name it (e.g. `newshawk-support`). Google Analytics is optional.
+2. Name it (e.g. `nighthawknews-support`). Google Analytics is optional.
 3. Once the project is ready, go to **Project settings → General → Your apps**.
 4. Click the **Web** icon (`</>`) to register a new web app. Skip Firebase Hosting.
 5. Copy the resulting `firebaseConfig` object — you'll paste it into `script.js`.
