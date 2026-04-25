@@ -38,12 +38,13 @@ import {
 // You can find it in Firebase Console → Project settings → Your apps → SDK setup.
 // ---------------------------------------------------------------------------
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID",
+  apiKey: "AIzaSyCS-NnXg40cExN9WSCgUn694bUd3Qw3Cpc",
+  authDomain: "nighthawk-support.firebaseapp.com",
+  projectId: "nighthawk-support",
+  storageBucket: "nighthawk-support.firebasestorage.app",
+  messagingSenderId: "243948807349",
+  appId: "1:243948807349:web:1ee757691e40b62e650afc",
+  measurementId: "G-JB80HSK9WH"
 };
 
 const CONFIG_PLACEHOLDER = firebaseConfig.apiKey === "YOUR_API_KEY";
